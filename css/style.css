@@ -255,7 +255,11 @@ header nav ul li:last-of-type a {
     top: 12px;
     right: 5px;    
 }
-.banner-for-git {
-    font-size: 15px;
+.banner-for-git {    
     background-color: red;
+    height: 500px;
+}
+.banner-for-git h4 {
+    font-size: 30px;
+    text-align: center;
 }
