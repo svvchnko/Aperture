@@ -255,3 +255,6 @@ header nav ul li:last-of-type a {
     top: 12px;
     right: 5px;    
 }
+.banner-for-git {
+    font-size: 15px;
+}
