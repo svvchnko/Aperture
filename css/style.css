@@ -257,4 +257,5 @@ header nav ul li:last-of-type a {
 }
 .banner-for-git {
     font-size: 15px;
+    background-color: red;
 }
