@@ -1,0 +1,30 @@
+
+@media only screen and (max-width: 1168px) {
+    header {
+        
+
+    }
+    
+        header .container {
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        
+        .clients-banner .clients-list {
+                align-items: center;
+                flex-wrap: wrap;
+        }
+           
+}
+@media only screen and (max-width: 700px) {
+ header {
+   
+ }
+
+ 
+ header nav ul {
+    display: block;
+ }
+
+}
