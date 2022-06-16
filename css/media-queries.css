@@ -1,30 +1,79 @@
 
 @media only screen and (max-width: 1168px) {
-    header {
-        
-
+    header .container {
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 0 35px;
     }
+
+    .clients-banner .clients-list {
+        align-items: center;
+        flex-wrap: wrap;
+    }    
+
+}
+
+@media only screen and (max-width: 767px) {   
     
-        header .container {
-            justify-content: center;
-            align-items: center;
-            flex-wrap: wrap;
+        header .container {        
+            padding: 0 35px;
         }
-        
-        .clients-banner .clients-list {
-                align-items: center;
-                flex-wrap: wrap;
+                .clients-banner .clients-list {
+                    flex-direction: column;
+                }
+                                .clients-banner .clients-list a {
+                                    margin-bottom: 30px;
+}
+.clients-banner .clients-list a:last-of-type {
+    margin-bottom: 0;
+}
+}
+
+@media only screen and (max-width: 580px) {
+    header nav ul {
+        flex-direction: column;
+    }
+
+    header nav ul li:first-of-type {
+        margin-right: 0;
+    }
+
+    .main-banner h3 {
+        font-size: 10px;
+        line-height: 16px;
+    }
+
+    .main-banner h1 {
+        font-size: 34px;
+        line-height: 49px;
+    }
+
+    .clients-banner h3 {        
+        font-size: 30px;
+        line-height: 38px;
+    }
+
+    .clients-banner p {
+        font-size: 20px;
+    }
+        .contact-banner h3 {            
+            font-size: 30px;
+            line-height: 38px;
         }
-           
+    
+        .contact-banner p {
+            font-size: 20px;
+        }
 }
-@media only screen and (max-width: 700px) {
- header {
-   
- }
-
- 
- header nav ul {
-    display: block;
- }
-
-}
+        @media only screen and (max-width: 372px) {
+            header .container {
+                flex-direction: column;
+                    align-items: center;
+        }
+                header .container .logo {
+                    text-align: center;
+                    position: relative;
+                    left: 12px;
+                }
+    }
