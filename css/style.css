@@ -172,11 +172,14 @@ header nav ul li:last-of-type a {
     color: #C0C0C0;
     margin-bottom: 82px;
 }
-.clients-list {
-    display: flex;
-    justify-content: space-around;        
+.clients-banner a { 
+    display: inline-block;
+    max-width: 128px;
 }
-
+.clients-banner a img {
+    width: 100%;
+    display: block;
+}
 .himalayas-banner {
     background-image: url("../images/himalayas.jpg");
     background-size: cover;
@@ -235,4 +238,10 @@ header nav ul li:last-of-type a {
     position: relative;
     top: 12px;
     right: 5px;
+}
+.owl-stage {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
 }

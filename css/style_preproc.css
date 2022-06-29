@@ -1,0 +1,14 @@
+header {
+  background-color: black;
+  padding: 24px 0;
+}
+
+header nav a {
+  text-decoration: none;
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  color: #FFFFFF;
+  display: inline-block;
+}/*# sourceMappingURL=style_preproc.css.map */

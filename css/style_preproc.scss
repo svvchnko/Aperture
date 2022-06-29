@@ -1,0 +1,16 @@
+$main_font: 'Poppins';
+$black_color: black;
+
+header {
+    background-color: $black_color;
+    padding: 24px 0;
+}
+header nav a {
+    text-decoration: none;
+    font-family: $main_font;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    color: #FFFFFF;
+    display: inline-block;
+}
