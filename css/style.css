@@ -64,7 +64,7 @@ header nav ul li:last-of-type a {
     position: relative;
 
 }
-.main-banner .container {
+.main-container {
     max-width: 580px;
     margin: inherit;
     text-align: center;
