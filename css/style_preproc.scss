@@ -1,3 +1,18 @@
+@import url(https://fonts.googleapis.com);
+@import url(https://fonts.gstatic.com);
+@import url(https://fonts.googleapis.com/css2?family=Poppins&display=swap);
+@import url(owl.carousel.css);
+@import url(owl.theme.default.css);
+@import url(style.css);
+@import url(menu.css);
+@import url(normalize.css);
+ 
+@mixin max-screen($res) {
+    @media screen and (max-width: $res) {
+        @content;
+    }
+}
+
 $main_font: 'Poppins';
 $black_color: black;
 
